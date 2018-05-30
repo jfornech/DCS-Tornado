@@ -7,15 +7,13 @@ mount_vfs_texture_path  (current_mod_path.."/Textures/Avionics")
 
 Tornado =  {
         
-	Name 				=   'Tornado',
-	DisplayName			= _('Tornado'),
-	
+	Name 			=   'Tornado',
+	DisplayName		= _('Tornado'),
 	HumanCockpit 		= true,
-	HumanCockpitPath    = current_mod_path..'/Cockpit/Scripts',
-	
-	Picture 			= "Tornado.png",
-	Rate 				= 40, -- RewardPoint in Multiplayer
-	Shape 				= "Tornado",
+	HumanCockpitPath    	= current_mod_path..'/Cockpit/Scripts',
+	Picture 		= "Tornado.png",
+	Rate 			= 40, -- RewardPoint in Multiplayer
+	Shape 			= "Tornado",
 	
 	shape_table_data 	= 
 	{
@@ -35,71 +33,71 @@ Tornado =  {
 		},
 
 	},
-	mapclasskey 		= "P0091000025",
+	mapclasskey 			= "P0091000025",
 	attribute  			= {wsType_Air, wsType_Airplane, wsType_Fighter, WSTYPE_PLACEHOLDER ,"Battleplanes",},
 	Categories 			= {"{78EFB7A2-FD52-4b57-A6A6-3BF0E1D6555F}", "Interceptor",},	
 	-------------------------
-	M_empty 					= 14090, -- kg with pilot and nose load
-	M_nominal 					= 19160, -- kg (Empty Plus Full Internal Fuel)
-	M_max 						= 28000, -- kg (Maximum Take Off Weight)
-	M_fuel_max 					= 4660, -- kg --2225
-	H_max 					 	= 15240, -- m (Maximum Operational Ceiling)
-	average_fuel_consumption 	= 0.61, -- this is highly relative, but good estimates are 36-40l/min = 28-31kg/min = 0.47-0.52kg/s -- 45l/min = 35kg/min = 0.583kg/s
-	CAS_min 					= 55, -- if this is not OVERAL FLIGHT TIME, but jus LOITER TIME, than it sholud be 10-15 minutes.....CAS capability in minute (for AI)
-	V_opt 						= 120,-- Cruise speed (for AI)
-	V_take_off 					= 59, -- Take off speed in m/s (for AI)
-	V_land 						= 59, -- Land speed in m/s (for AI)
-	V_max_sea_level 			= 400, -- Max speed at sea level in m/s (for AI)
-	V_max_h 					= 800, -- Max speed at max altitude in m/s (for AI)
-	Vy_max 						= 250, -- Max climb speed in m/s (for AI)
-	Mach_max 					= 2.2, -- Max speed in Mach (for AI)
-	Ny_min 						= -3, -- Min G (for AI)
-	Ny_max 						= 9.0,  -- Max G (for AI)
-	Ny_max_e 					= 9.0,  -- Max G (for AI)
-	AOA_take_off 				= 0.16, -- AoA in take off (for AI)
-	bank_angle_max 				= 85, -- Max bank angle (for AI)
+	M_empty 			= 14090, -- kg with pilot and nose load
+	M_nominal 			= 19160, -- kg (Empty Plus Full Internal Fuel)
+	M_max 				= 28000, -- kg (Maximum Take Off Weight)
+	M_fuel_max 			= 4660, -- kg --2225
+	H_max 				= 15240, -- m (Maximum Operational Ceiling)
+	average_fuel_consumption	= 0.61, -- this is highly relative, but good estimates are 36-40l/min = 28-31kg/min = 0.47-0.52kg/s -- 45l/min = 35kg/min = 0.583kg/s
+	CAS_min 			= 55, -- if this is not OVERAL FLIGHT TIME, but jus LOITER TIME, than it sholud be 10-15 minutes.....CAS capability in minute (for AI)
+	V_opt 				= 120,-- Cruise speed (for AI)
+	V_take_off 			= 59, -- Take off speed in m/s (for AI)
+	V_land 				= 59, -- Land speed in m/s (for AI)
+	V_max_sea_level 		= 400, -- Max speed at sea level in m/s (for AI)
+	V_max_h 			= 800, -- Max speed at max altitude in m/s (for AI)
+	Vy_max 				= 250, -- Max climb speed in m/s (for AI)
+	Mach_max 			= 2.2, -- Max speed in Mach (for AI)
+	Ny_min 				= -3, -- Min G (for AI)
+	Ny_max 				= 9.0,  -- Max G (for AI)
+	Ny_max_e 			= 9.0,  -- Max G (for AI)
+	AOA_take_off 			= 0.16, -- AoA in take off (for AI)
+	bank_angle_max 			= 85, -- Max bank angle (for AI)
 
 
-	has_afteburner 				= true, -- AFB yes/no
-	has_speedbrake 				= true, -- Speedbrake yes/no
-	nose_gear_pos 				= {  3,	-1,	0}, -- nosegear coord
-	main_gear_pos 				= { -1,	-1,	2}, -- main gear coords
-	tand_gear_max 				= 0.4,
-	tanker_type 				= 0, -- Tanker type if the plane is airrefuel capable
-	wing_area 					= 36.5, -- wing area in m2
-	wing_span 					= 13.91, -- wing spain in m
-	wing_type 					= 1, -- FIXED_WING = 0/VARIABLE_GEOMETRY = 1/FOLDED_WING = 2/ARIABLE_GEOMETRY_FOLDED = 3
-	thrust_sum_max 				= 8160, -- thrust in kg (RB199 Mk 104 =  40.5 kN (dry))
-	thrust_sum_ab 				= 14520, -- thrust in kg (RB199 Mk 104 = 73 kN (reheat))
-	length 						= 16.72, -- full lenght in m
-	height 						= 5.95, -- height in m
-	flaps_maneuver 				= 0.5, -- Max flaps in take-off and maneuver (0.5 = 1st stage; 1.0 = 2nd stage) (for AI)
-	range 						= 2000, -- Max range in km (for AI)
-	RCS 						= 5, -- Radar Cross Section m2
-	IR_emission_coeff 			= 0.62, -- Normal engine -- IR_emission_coeff = 1 is Su-27 without afterburner. It is reference.
+	has_afteburner 			= true, -- AFB yes/no
+	has_speedbrake 			= true, -- Speedbrake yes/no
+	nose_gear_pos 			= {  3,	-1,	0}, -- nosegear coord
+	main_gear_pos 			= { -1,	-1,	2}, -- main gear coords
+	tand_gear_max 			= 0.4,
+	tanker_type 			= 0, -- Tanker type if the plane is airrefuel capable
+	wing_area 			= 36.5, -- wing area in m2
+	wing_span 			= 13.91, -- wing spain in m
+	wing_type 			= 1, -- FIXED_WING = 0/VARIABLE_GEOMETRY = 1/FOLDED_WING = 2/ARIABLE_GEOMETRY_FOLDED = 3
+	thrust_sum_max 			= 8160, -- thrust in kg (RB199 Mk 104 =  40.5 kN (dry))
+	thrust_sum_ab 			= 14520, -- thrust in kg (RB199 Mk 104 = 73 kN (reheat))
+	length 				= 16.72, -- full lenght in m
+	height 				= 5.95, -- height in m
+	flaps_maneuver 			= 0.5, -- Max flaps in take-off and maneuver (0.5 = 1st stage; 1.0 = 2nd stage) (for AI)
+	range 				= 2000, -- Max range in km (for AI)
+	RCS 				= 5, -- Radar Cross Section m2
+	IR_emission_coeff 		= 0.62, -- Normal engine -- IR_emission_coeff = 1 is Su-27 without afterburner. It is reference.
 	IR_emission_coeff_ab 		= 1.02, -- With afterburner
-	wing_tip_pos 				=  {-4.366,	0.45,	6.357}, -- wingtip coords for visual effects {-2,	2, 7}, -- wingtip coords for visual effects
+	wing_tip_pos 			=  {-4.366,	0.45,	6.357}, -- wingtip coords for visual effects {-2,	2, 7}, -- wingtip coords for visual effects
 	
 	
-	nose_gear_pos 				                = {3.821,	-2.107,	0},   -- nosegear coord 
+	nose_gear_pos 				        = {3.821, -2.107, 0},   -- nosegear coord 
 	nose_gear_amortizer_direct_stroke   		=  0,  -- down from nose_gear_pos !!!
 	nose_gear_amortizer_reversal_stroke  		=  0,  -- up 
 	nose_gear_amortizer_normal_weight_stroke 	=  0,   -- down from main_gear_pos
 	nose_gear_wheel_diameter 	                = 0.754, -- in m
 	
-	main_gear_pos 						 	    = {-1.323,	-2.107,	1.541}, -- main gear coords 
-	main_gear_amortizer_direct_stroke	 	    =   0, --  down from main_gear_pos !!!
-	main_gear_amortizer_reversal_stroke  	    = 	0, --  up 
-	main_gear_amortizer_normal_weight_stroke    =   0,-- down from main_gear_pos
+	main_gear_pos 					= {-1.323, -2.107, 1.541}, -- main gear coords 
+	main_gear_amortizer_direct_stroke		= 0, --  down from main_gear_pos !!!
+	main_gear_amortizer_reversal_stroke  	    	= 0, --  up 
+	main_gear_amortizer_normal_weight_stroke    	= 0,-- down from main_gear_pos
 	main_gear_wheel_diameter 				    =   0.972, -- in m	
 	
 	
 	--nose_gear_wheel_diameter 	= 0.500, -- in m
 	--main_gear_wheel_diameter 	= 0.800, -- in m
-	brakeshute_name 			= 3, -- Landing - brake chute visual shape after separation
+	brakeshute_name 				= 3, -- Landing - brake chute visual shape after separation
 	is_tanker 					= false, -- Tanker yes/no
-	air_refuel_receptacle_pos 	= {0, 0, 0}, -- refuel coords
-	engines_count				= 2, -- Engines count
+	air_refuel_receptacle_pos 			= {0, 0, 0}, -- refuel coords
+	engines_count					= 2, -- Engines count
 	engines_nozzles = 
 		{
 			[1] = 
@@ -157,12 +155,12 @@ Tornado =  {
 	
 	
 	-- Countermeasures
-	SingleChargeTotal	 	= 120,
+	SingleChargeTotal	 = 120,
 	CMDS_Incrementation 	= 4,
-	ChaffDefault 			= 64, 
-	ChaffChargeSize 		= 1,
-	FlareDefault 			= 64, 
-	FlareChargeSize 		= 1,
+	ChaffDefault 		= 64, 
+	ChaffChargeSize 	= 1,
+	FlareDefault 		= 64, 
+	FlareChargeSize 	= 1,
 	CMDS_Edit 				= true,
 	chaff_flare_dispenser 	= {
 		[1] = 
@@ -603,16 +601,16 @@ Tornado =  {
 	SFM_Data = {
 		aerodynamics = -- Cx = Cx_0 + Cy^2*B2 +Cy^4*B4
 		{
-			Cy0			=	0,      -- zero AoA lift coefficient
-			Mzalfa		=	4.355,  -- coefficients for pitch agility
-			Mzalfadt	=	0.8,    -- coefficients for pitch agility
-			kjx			=	2.3,    
-			kjz			=	0.0011, 
-			Czbe		=	-0.014, -- coefficient, along Z axis (perpendicular), affects yaw, negative value means force orientation in FC coordinate system
-			cx_gear		=	0.3,    -- coefficient, drag, gear
-			cx_flap		=	0.08,   -- coefficient, drag, full flaps
-			cy_flap		=	0.4,    -- coefficient, normal force, lift, flaps
-			cx_brk		=	0.08,   -- coefficient, drag, breaks
+			Cy0		= 0,      -- zero AoA lift coefficient
+			Mzalfa		= 4.355,  -- coefficients for pitch agility
+			Mzalfadt	= 0.8,    -- coefficients for pitch agility
+			kjx		= 2.3,    
+			kjz		= 0.0011, 
+			Czbe		= -0.014, -- coefficient, along Z axis (perpendicular), affects yaw, negative value means force orientation in FC coordinate system
+			cx_gear		= 0.3,    -- coefficient, drag, gear
+			cx_flap		= 0.08,   -- coefficient, drag, full flaps
+			cy_flap		= 0.4,    -- coefficient, normal force, lift, flaps
+			cx_brk		= 0.08,   -- coefficient, drag, breaks
 			table_data  = 
 			{	--      M		Cx0		Cya		B		B4	    Omxmax	Aldop	Cymax
 				[1] = 	{0,		0.024,	0.07,	0.075,	0.12,	0.5,	30,		1.2},
@@ -695,12 +693,12 @@ Tornado =  {
 	},
 	--damage , index meaning see in  Scripts\Aircrafts\_Common\Damage.lua
 	Damage = {
-				[0]		= {critical_damage = 5, args = {146}},
-				[3]		= {critical_damage = 20,args = {65}}  ,
-				[4]		= {critical_damage = 20, args = {150}},
-				[5]		= {critical_damage = 20, args = {147}},
-				[7]		= {critical_damage = 4, args = {249}} ,
-				[9]		= {critical_damage = 3, args = {154}},
+				[0]	= {critical_damage = 5, args = {146}},
+				[3]	= {critical_damage = 20,args = {65}}  ,
+				[4]	= {critical_damage = 20, args = {150}},
+				[5]	= {critical_damage = 20, args = {147}},
+				[7]	= {critical_damage = 4, args = {249}} ,
+				[9]	= {critical_damage = 3, args = {154}},
 				[10]	= {critical_damage = 3, args = {153}},
 				[11]	= {critical_damage = 3, args = {167}},
 				[12]	= {critical_damage = 3, args = {161}},
@@ -729,7 +727,6 @@ Tornado =  {
 				[55]	= {critical_damage = 20, args = {81}, deps_cells = {39, 40, 45, 46, 51, 52, 53, 54}},
 				[59]	= {critical_damage = 5, args = {148}},
 				[60]	= {critical_damage = 1, args = {144}},
-
 				[83]	= {critical_damage = 3, args = {134}} ,-- nose wheel
 				[84]	= {critical_damage = 3, args = {136}}, -- left wheel
 				[85]	= {critical_damage = 3, args = {135}} ,-- right wheel
