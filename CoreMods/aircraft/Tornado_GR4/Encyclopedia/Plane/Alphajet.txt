@@ -1,0 +1,42 @@
+Alphajet
+Plane/Alphajet.png
+Alphajet
+
+Name: Alphajet A/E
+Type: Lightweight Fighter/Advanced Trainer
+Crew: 2
+Length: 11.85 m
+Wing span: 9.11 m
+Height: 4.19 m
+Wing area: 17.5 m2
+Weight Empty: 3340 Kg
+Maximum Weight for takeoff: 5785 kg
+Maximum Weight for normal landing: 5000 Kg
+Maximum internal fuel: 1549 kg
+Maximum Mach at height: 0.95
+Maximum Mach at S/L: 0.85
+Service ceiling: 12 800 m
+Maximum range: 1230 km
+G limit: 9.0 g
+Normal G: +7.5/-3.5 g
+Thrust Rating (ISA sea level): 2x2860 kg
+
+
+Armament: 
+ - 2 x Matra Magic
+ - 2 x Rocket Pods
+ - Practice Bombs
+ - BL-755 Cluster Bombs
+ - 150 x 30 mm Cannon Pod
+
+
+The Alphajet is a tandem two-seater, twin engine aircraft, designed for basic school,advanced training and tactical support missions.
+
+Alphajet marked an altogether remarkable step forward as compared with the basic training aircraft of the previous generation, when considering its operational capabilities and its level of performance in all the roles it can fullfill.
+In particular, it possesses the following characteristics:
+Excellent flight capabilities and demonstratively of spin, stall and transonic flight are the fruit of a long theoretical optimization study, followed by wind tunnel tests, in a wider flight envelope the the one explored so far.
+
+Two Larzac 04 C20 turbofan engines of 2860 kg thrust each (or 04C20 engines of 3175 lb thrust each), which provide an excellent trust/weight ratio while retaining low specific consumption in cruise. This advantage, joined to the large internal fuel capacity of the Alphajet, brings long endurance - morethan 4.5 hours at high altitude - and a large radius odf action at low altitude, which is important for aircraft in this class.
+
+An effective high-lift system, characterised by slotted split flaps, gives an approach speed of about 110 knots.
+A fuselage tricycle landing gear of very simple design, fitted with low-pressure tires ans retracting forward in the fuselage. the nose gear can be equipped with a steering system.
